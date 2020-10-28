@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta name="keyword" content="barbershop,barber,haircut">
+  <meta name="description" content="barber shop website">
+  <meta name="author" content="Yizhak Gete">
+  <meta http-equiv="refresh" content="45">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <meta name="robots" content="UNINDEX, NOFOLLOW">
+  <meta charset="UTF-8">
+  <title>ה-BARBERSHOP-צור קשר</title>
+  <link rel="stylesheet" href="contact.css">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Indie+Flower&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="images/logo.png">
+</head>
+<body dir="rtl">
+
+  <header id="header" class="head"> 
+    <!-- מסך ניווט ראשי,מקובע,רקע לבן,לוגו,קישורים -->
+  <a href="Index.html">בית</a> 
+  <a href="about.html">אודותינו</a>
+  <a href="gallery.html">גלריה</a>
+  <a href="Index.html#price">מחירון</a>
+  <a href="contact.html">צור קשר</a>
+  <a href="Index.html" target="_self"><img src="images/logo.png" alt="barbershop logo"></a> 
+</header>
+<div id="info" class="info">
+      <div id="phone">
+       <h3>SAY HELLO</h3>
+       <hr style="width: 100px;">
+       <p>טלפון: <a href="tel:0529527969" >052-9527969</a></p>
+       <p>אימייל:</br><a href="mailto:yizhakg@gmail.com">yizhakg@gmail.com</a></p>
+       </div>
+       <div id="adress">
+        <h3>OUR ADRESS</h3>
+        <hr style="width: 100px;">
+        <p>רחוב הנשיא 84 חדרה</p>
+        </div>
+        <div id="open">
+          <h3>OPENING HOURS</h3>
+          <hr style="width: 100px;">
+          <p>ימי ראשון - חמישי:</br>10:00-19:00</p>
+          </div>
+
+</div>
+  <div id="contact" class="contact">
+    <img src="images/shaving.png" alt="table photo">
+  <h2>תשאיר פרטים אחי</h2>
+  <p>-ונדאג שגם תהיה חבר-</p>
+  <form action="Index.html">
+    <label for="fname">שם פרטי:</label>
+    <input type="text" id="fname" name="fname" placeholder="תרשום פה אחי" required><br>
+    <label for="lname">שם משפחה:</label>
+    <input type="text" id="lname" name="lname" placeholder="תרשום פה אחי" required><br>
+     <label for="age">גיל:</label>
+     <input type="number" size="4" name="age" min="18" placeholder="תרשום פה אחי" required ><br>
+    <label for="phone">פלאפון:</label>
+    <input type="tel" id="phone" name="phone"
+       pattern="[0-9]{3}[0-9]{7}"
+       placeholder="תרשום פה אחי" required></br>
+       <label for="email">אימייל:</label>
+       <input type="email" id="email" name="email"placeholder="תרשום פה אחי" required>
+       <div id="gender">
+         <label for="gender">מין:</label>
+         <input type="radio" id="male" name="gender" value="male">
+         <label for="male">זכר</label>
+         <input type="radio" id="female" name="gender" value="female">
+         <label for="female">נקבה</label>
+       </div>
+       <span>
+    <input type="submit" value="שלח"></br>
+    <input type="reset" value="אפס">
+       </span>
+  </form> 
+</div>
+
+<div id="footer" class="footer">
+  <a href="tel:0529527969" style="float: right; padding-right: 20px;">התקשרו אלינו</a>
+  <a id="copyright" style="padding-right: 160px;">Copyright &copy; My Website 2020</a>
+  <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook link"></a>
+  <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram link"></a>
+  <a href="https://www.youtube.com/"><img src="images/youtube.png" alt="youtube link"></a>
+  <a href="https://www.whatsapp.com/"><img src="images/whatsapp.png" alt="whatsapp link"></a>
+</div>
+</body>
+</html>

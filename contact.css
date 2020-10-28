@@ -1,0 +1,194 @@
+/* doc font design */
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Amatic SC', cursive,Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  text-shadow: 5px 5px 5px rgb(194, 166, 77);
+}
+.home{
+margin-top: 89px;
+}
+div{  
+  margin-top: 20px;
+}
+/* links design */
+a{
+
+  text-decoration: none;
+  color: black;
+}
+/* hover links design */
+a:hover{
+  color: rgb(145, 196, 226);
+  /* font-size: 120%; */
+  text-shadow: 5px 5px 5px rgb(194, 166, 77);
+}
+.head a:active{ 
+  background-color: black;
+  color: white;
+}
+.head{ 
+  z-index: 1;
+  height: 50px;
+  box-shadow: 0px 0px 20px #000000a8;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background-image:linear-gradient(rgba(255, 255, 255, 0.185), rgba(255, 255, 255, 0.705)), url("images/cover.jpg");
+  background-size: 350px;
+  padding-top: 20px;
+  font-size: 35px;
+}
+.head img{  
+  float: left;
+  margin-top: -40px;
+  margin-left: 20px;
+  width: 110px;
+  height: auto;
+  }
+  .head a{
+    padding-right: 10px;
+    padding-left: 10px;
+    text-shadow: -1px 1px 0 #000,
+    5px 5px 5px rgb(194, 166, 77),
+    5px 5px 5px rgb(194, 166, 77);
+  }
+ .contact{
+  text-shadow: 0px 0px 0px rgb(194, 166, 77);
+  padding-right: 15px;
+  padding-bottom: 30px;
+  font-size: 120%;
+  background-image:linear-gradient(rgba(255, 255, 255, 0.808), rgba(255, 255, 255, 0.651)), url("images/contactwall.jpg");
+  background-size: 20%;
+  border-top: 3px double black;
+  border-bottom: 3px double black;;
+}
+.contact img{
+  width: auto; 
+  height: 500px; 
+  float:left; 
+  margin-left: 250px;
+  margin-top: 120px;
+}
+
+  input {
+    width: 270px;
+    font-family: 'Amatic SC', cursive,Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    letter-spacing: 5px;
+    background-color: rgba(255, 255, 255, 0.767);
+    padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-top: 3px double  blue;
+  border-bottom: 3px double  blue;
+  border-right: 0;
+  border-left: 0;
+  }
+  input:hover {
+  box-shadow: 0px 0px 20px #f03535a2;
+  }
+  input[type=radio]{
+    box-shadow: 0px 0px 0px;
+    width: 30px;
+  }
+  input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    position: relative;
+    bottom: 6px;
+    right: 6px;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    position: relative;
+    bottom: 6px;
+    right: 6px;
+    background-color: #f03535;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+
+  .info{
+    text-shadow: 0px 0px 0px rgb(194, 166, 77);
+    margin-top: 89px;
+    padding-right: 15px;
+    font-size: 120%;
+    background-image:linear-gradient(rgba(255, 255, 255, 0.808), rgba(255, 255, 255, 0.651)), url("images/contactwall.jpg");
+    background-size: 20%;
+    border-top: 3px double black;
+    border-bottom: 3px double black;;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+ 
+  .info div{
+    width: 150px;
+    height: 320px;
+    background-image:linear-gradient(rgba(255, 255, 255, 0.808), rgba(255, 255, 255, 0.651)), url("images/card.jpg");
+    background-size: cover;
+    padding-left: 30px;
+    padding-right: 30px;
+    vertical-align: top;
+    display: inline-block;
+  }
+  .info div:hover{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.808), rgba(255, 255, 255, 0.651)), url("images/card22.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    padding-right: 30px;
+    vertical-align: top;
+    display: inline-block;
+  }
+  .footer{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-image:linear-gradient(rgba(255, 255, 255, 0.185), rgba(255, 255, 255, 0.705)), url("images/cover.jpg");
+    background-size: 30%;
+    border-top: 3px double black;
+    border-bottom: 3px double black;
+    text-align: center;
+    clear: both;
+    display: table;
+  }
+  .footer a img{
+  float: left;
+  padding-right: 20px;
+  padding-left: 20px;
+  }
+  .footer a{
+    text-shadow: -1px 1px 0 #000,
+    2px 2px 5px rgb(194, 166, 77),
+    2px 2px 2px rgb(194, 166, 77);
+  }
+    
+  label {
+    display: inline-block;
+    width: 75px;
+  }
+  .contact span{
+    display: block;
+    padding-right: 76px;
+  }
+ #gender{
+  margin: 20px 0;
+ }
+ #gender label:hover{
+  text-shadow: 0px 0px 10px #f03535a2;
+
+ }
